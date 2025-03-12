@@ -1,0 +1,95 @@
+<html>
+ <head>
+  <title>
+   Link Bio Modern
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body class="bg-gradient-to-r from-blue-500 to-blue-700 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-8 rounded-lg shadow-lg text-center w-full max-w-sm fade-in">
+   <a href="https://www.instagram.com/lapaksosmed.store">
+    <img alt="Profile picture of the user with a modern and stylish design" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500 shadow-lg bounce" height="100" src="https://i.ibb.co.com/xSH6kB8J/IMG-20250310-154235-136.webp" width="100"/>
+   </a>
+   <h1 class="text-2xl font-bold mb-2 flex items-center justify-center text-blue-500">
+    Lapak Sosmed
+    <i class="fas fa-check-circle text-blue-500 ml-2 text-sm">
+    </i>
+   </h1>
+   <p class="text-gray-600 mb-4">
+    Kualitas Terbaik & Garansi Terjamin
+    <br/>
+    Terpercaya No #1 di Indonesia
+   </p>
+   <div class="space-y-4">
+    <a class="block bg-green-500 text-white py-2 rounded-lg shadow-lg hover:bg-green-600 transition duration-300 flex items-center justify-center transform hover:scale-105" href="https://wa.link/dowrpn">
+     <i class="fab fa-whatsapp mr-2">
+     </i>
+     WhatsApp Fast Respon
+    </a>
+    <a class="block bg-blue-400 text-white py-2 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 flex items-center justify-center transform hover:scale-105" href="https://t.me/lapaksosmed_store">
+     <i class="fab fa-telegram-plane mr-2">
+     </i>
+     Telegram Fast Respon
+    </a>
+    <a class="block bg-pink-500 text-white py-2 rounded-lg shadow-lg hover:bg-pink-600 transition duration-300 flex items-center justify-center transform hover:scale-105" href="https://www.instagram.com/lapaksosmed.store">
+     <i class="fab fa-instagram mr-2">
+     </i>
+     Instagram Fast Respon
+    </a>
+   </div>
+   <hr class="my-8 border-gray-300"/>
+   <div class="text-left">
+    <h2 class="text-xl font-bold mb-2">
+     Kenapa Harus Order di Lapak Sosmed?
+    </h2>
+    <ul class="list-disc list-inside text-gray-600">
+     <li>
+      Produk berkualitas tinggi dengan harga terjangkau.
+     </li>
+     <li>
+      Privasi aman dan garansi terjamin.
+     </li>
+     <li>
+      Pelayanan pelanggan yang responsif dan ramah.
+     </li>
+     <li>
+      Proses cepat dan aman tanpa menggunakan password akun.
+     </li>
+     <li>
+      Banyak pilihan metode pembayaran yang aman dan mudah.
+     </li>
+    </ul>
+   </div>
+   <div class="mt-8 text-gray-500 text-sm">
+    &copy; <span id="currentYear"></span> Lapak Sosmed. All rights reserved.
+   </div>
+  </div>
+  <script>
+   document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+ </body>
+</html>
